@@ -118,7 +118,6 @@ section .texto{
     padding: 0 40px;
     font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -165,7 +164,6 @@ section.cardapio .flex{
 section.cardapio h3{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     text-align: center;
     padding-bottom: 50px;
@@ -184,7 +182,6 @@ section.cardapio span{
 .cardapio-box p{
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-variation-settings: "wdth" 100;
     font-size: 15px;
@@ -236,7 +233,6 @@ section .titulo{
     color: #fff;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal
 }
 /* ESTILO RODAPÉ */
@@ -270,14 +266,12 @@ footer .logo img{
 .agradecimento h3{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     color: #fff;
 }
 .agradecimento p{
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-variation-settings: "wdth" 100;
     color: #fff;
@@ -286,7 +280,6 @@ footer .logo img{
 .agradecimento a{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     padding: 5px;
     background-color: rgb(255, 255, 255);
@@ -366,7 +359,7 @@ section.inicio .logo img{
 }
 /* CARDAPIO */
 .cardapio-box h4{
-    color: darkblue;
+    color: orangered;
 }
 .cardapio-box p{
     color: #fff;
