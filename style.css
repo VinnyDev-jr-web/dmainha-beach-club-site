@@ -180,6 +180,7 @@ section.cardapio span{
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal
+    color: darkblue;
 }
 .cardapio-box p{
     font-family: "Roboto", sans-serif;
@@ -188,7 +189,7 @@ section.cardapio span{
     font-style: normal;
     font-variation-settings: "wdth" 100;
     font-size: 15px
-    
+    color: #fff;
 }
 /* ESTILO CONTATO */
 section.contato{
