@@ -1,0 +1,385 @@
+/* ESTILO GERLAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.interfac{
+    width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+/* ESTILO CABEÇALHO */
+header{
+    padding: 40px 4%;
+    background-color: whitesmoke;
+    width: 100%;
+    margin-bottom: -20px;
+}
+header.rolagem{
+    position: fixed;
+    left: 3px;
+    padding: 20px 4%;
+    background-color: whitesmoke;
+    z-index: 3;
+}
+header.rolagem nav ul li{
+    display: inline-block;
+    padding: 0 91px;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.menu{
+    padding-right: 40vh;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 15px;
+}
+header i{
+    color: orange;
+    padding: 5px 7px;
+    background-color: darkblue;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 15px;
+    
+}
+header i:hover{
+    color: darkblue;
+    background-color: orange;
+    transform: scale(1.2);
+}
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #111;
+    margin: 8px;
+}
+/* ESTILO INICIO */
+section.inicio{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(/imagem/Praia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+section .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: float 3s ease-in-out infinite alternate;
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+/* ESTILO QUEM SOMOS */
+section.sobre{
+    padding: 40px 4%;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 50px;
+}
+section.sobre img{
+    border-radius: 40px;
+    width: 500px;
+    height: 400px;
+}
+section .texto{
+    padding: 0 40px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+section .texto h3{
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: orange;
+}
+section .texto p{
+    font-size: 18px;
+}
+section .texto h5{
+    font-size: 20px;
+    padding-top: 20px; 
+}
+section .texto span{
+    font-size: 20px;
+    color: darkblue;
+}
+/* ESTILO CARDAPIO */
+section.cardapio{
+    padding: 40px 4%;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), #111), darkblue  ;
+}
+section.cardapio .flex{
+    gap: 160px;
+}
+.cardapio-box{
+    width: 330px;
+    border-radius: 30px;
+    border: solid 2px blue;
+    transition: 1.2s;
+}
+.cardapio-box:hover{
+    transform: scale(1.1);
+}
+.cardapio-box img{
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+}
+section.cardapio h3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+section.cardapio span{
+    color: darkblue;
+}
+.cardapio-box h4{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal
+}
+.cardapio-box p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 15px
+    
+}
+/* ESTILO CONTATO */
+section.contato{
+    padding: 40px 4%;
+    text-align: center;
+    background-color: #111;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    padding: 10px 10px;
+    color: black;
+    font-size: 15px;
+}
+form textarea{
+    max-height: 150px;
+    resize: none;
+}
+form .btn-enviar input{
+    cursor: pointer;
+    width: 130px;
+    background-color: darkblue;
+    font-size: 30px;
+    transition: 1s;
+}
+form .btn-enviar input:hover{
+    transform: scale(1.2);
+    color: darkblue;
+    background-color: #fff;
+}
+section .titulo{
+    font-size: 20px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal
+}
+/* ESTILO RODAPÉ */
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 20px 10px #111;
+    background-color: darkblue;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: -50px;
+}
+.botoes-footer i{
+    font-size: 30px;
+    padding: 0 15px;
+    color: white;
+}
+/* AGRADECIMENTO */
+.agradecimento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: darkblue;
+    flex-direction: column;
+}
+.agradecimento h3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: #fff;
+}
+.agradecimento p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.agradecimento a{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: orangered;
+    transition: 0.5s;
+}
+.agradecimento a:hover{
+    transform: scale(1.2);
+}
+
+@media  screen and (max-width: 1020px) {
+   /* GERAL */
+   .flex{
+    flex-direction: column-reverse;
+}
+/* CABEÇALHO */
+header .botoes{
+    display: none;
+}
+header.rolagem{
+    right: -3vh;
+    left: 0;
+    padding: 25px auto;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+}
+header.rolagem .menu{
+    background-color: white;
+    width: 70vw;
+    right: 3vw;
+}
+header.rolagem .menu a{
+    color: #111;
+}
+.mobile-menu{
+    z-index: 2;
+    padding-top: 10px;
+    padding-left: 40vh;
+    display: table-column;
+}
+.menu{
+    z-index: 1;
+    position: absolute;
+    top: 9vh;
+    right: 2vh;
+    width: 30vw;
+    height: 120vh;
+    margin-top: -56px;
+    background-color: #ffffff;
+    transition: 0.5s;
+    transform: translateX(110%);
+}
+.menu.ativar{
+    transform: translateX(0);
+}
+.menu li{
+    font-size: 25px;
+    padding-top: 10vh;
+}
+.menu a{
+    color: #111;
+}
+.menu a:hover{
+    color: darkblue;
+}
+/* INICIO */
+section.inicio .logo img{
+    width: 400px;
+    height: 400px;
+}
+/* QUEM SOMOS */
+.texto{
+    text-align: center;
+}
+/* CARDAPIO */
+.cardapio-box h4{
+    color: darkblue;
+}
+.cardapio-box p{
+    color: #fff;
+}
+/* RODAPÉ */
+footer .flex{
+    justify-content: space-between;
+}
+footer .logo{
+    padding-top: 30px;
+}
+/* AGRADECIMENTO */
+.agradecimento{
+    text-align: center;
+}
+}

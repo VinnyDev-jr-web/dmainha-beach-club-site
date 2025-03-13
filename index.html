@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- google fonts end -->
+    <title>D'mainha Beach Club Bar</title>
+</head>
+<body>
+    
+    <header class="cabeçalho">
+        <div class="interface">
+            <div class="flex">
+
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <div class="line4"></div>
+                </div><!--medu mobile-->
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#inicio">Home</a></li>
+                        <li><a href="#sobre">Quem Somos</a></li>
+                        <li><a href="#cardapio">Nossos Pratos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div><!--menu header-->
+
+                <div class="botoes">
+                    <a href="https://wa.me/5579999820020?text=Ola%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20estabelecimento" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/dmainhaaju?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/people/Dmainha-Beach-Club/61554128400030/#" target="_blank"><i class="bi bi-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="inicio" id="Inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="logo">
+                        <img src="/imagem/logo-d'mainha.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="ambiente">
+                        <img src="/imagem/Ambiente d D'mainha.jpg" alt="">
+                    </div><!--imagem demonstração-->
+
+                    <div class="texto">
+                        <h3>Quem Somos?</h3>
+                        <p>O D'mainha Beach Club Bar nasceu da paixão pelo mar, pela boa música e pelos momentos inesquecíveis entre amigos. Somos um espaço à beira-mar pensado para quem busca um ambiente acolhedor, com gastronomia de qualidade, drinks exclusivos e uma vibe única.</p>
+                        <p>Mais do que um bar, somos um refúgio onde cada detalhe foi criado para proporcionar experiências especiais. Do nascer ao pôr do sol, queremos que nossos clientes sintam-se em casa, aproveitando a brisa do mar, o som das ondas e a energia vibrante que torna o D'mainha um lugar único.</p>
+                        <h5>Seja para um almoço descontraído, um happy hour animado ou uma noite inesquecível, estamos aqui para tornar cada visita memorável. <span>Viva o melhor da praia, viva o D'mainha!</span></h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cardapio" id="cardapio">
+            <div class="interface">
+                <h3>Nossos <span>Sabores</span></h3>
+            </div>
+            <div class="flex">
+                <div class="cardapio-box">
+                    <img src="/imagem/Drink Oxente.jpg" alt="">
+                    <h4>Drinks</h4>
+                    <p>Drinks refrescantes à base de gin, vodka e frutas tropicais. Destaques como Gin D’Mainha e Gin Lampião, além de caipiroskas e coquetéis clássicos. Para quem prefere algo mais forte, há destilados em doses e garrafas.</p>
+                </div><!--cardapio box-->
+
+                <div class="cardapio-box">
+                    <img src="/imagem/Carangueijo.jpg" alt="">
+                    <h4>Pratos</h4>
+                    <p>Carangueijo, Moquecas de camarão, peixe e frutos do mar, servidas com arroz, pirão e farofa. Pratos executivos variados, como filés, feijoada e massas. Espetinhos e caldinhos para refeições mais leves.</p>
+                </div><!--cardapio box-->
+
+                <div class="cardapio-box">
+                    <img src="/imagem/Pasteis.jpg" alt="">
+                    <h4>Petiscos</h4>
+                    <p>Pastéis crocantes recheados com camarão, carne e queijo. Caranguejos frescos com pirão. Iscas de peixe, batata frita e camarão empanado, ideais para compartilhar.</p>
+                </div><!--cardapio box-->
+
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <div class="interface">
+                <h2 class="titulo">Faça sua <span>reserva.</span></h2>
+
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="name" placeholder="Seu Nome:" required>
+                    <input type="email" name="email" placeholder="Seu E-mail:" required>
+                    <input type="number" name="number" placeholder="Seu Telefone:">
+                    <textarea name="message" id=""placeholder="Sua Mensagem:" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+
+                    <input type="hidden" name="accessKey" value="e17c6e4f-1b7b-47c9-8c16-653cc48f9d32">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+                    <input type="text" name="honeypot" style="display: none;">
+                </form><!--corpo do formulario-->
+            </div>
+        </section>
+
+        <footer class="rodape">
+            <div class="interface">
+                    <div class="flex">
+                        <div class="logo">
+                            <img src="/imagem/logo-d'mainha.png" alt="">
+                        </div><!--logo-->
+                        <div class="botoes-footer">
+                            <a href="https://wa.me/5579999820020?text=Ola%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20estabelecimento" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/dmainhaaju?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.facebook.com/people/Dmainha-Beach-Club/61554128400030/#" target="_blank"><i class="bi bi-facebook"></i></a>
+                        </div>
+                    </div><!--flex-->
+            </div>
+        </footer>
+
+        <script src="menu.js"></script>
+
+    </main>
+
+</body>
+</html>
