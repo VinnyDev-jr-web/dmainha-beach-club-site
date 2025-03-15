@@ -338,7 +338,7 @@ header.rolagem .menu a{
 .mobile-menu{
     z-index: 2;
     padding-top: 10px;
-    padding-left: 40vh;
+    padding-left: 30vh;
     display: table-column;
 }
 .menu{
@@ -376,11 +376,13 @@ section.inicio .logo img{
     text-align: center;
 }
 /* CARDAPIO */
-.cardapio-box h4{
-    color: orangered;
+.flex .img-cardapio{
+    display: flex;
+    align-items: center;
+    left: 30px;
 }
-.cardapio-box p{
-    color: #fff;
+.overlay p{
+    padding: 15px;
 }
 /* RODAPÉ */
 footer .flex{
